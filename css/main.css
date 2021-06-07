@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "IRAnSans";
+  src: url("../fonts/IRAnSans/IRANSansWeb.woff") format("woff"),
+    url("../fonts/IRAnSans/IRANSansWeb_Bold.woff") format("woff"),
+    url("../fonts/IRAnSans/IRANSansWeb_Light.woff") format("woff"),
+    url("../fonts/IRAnSans/IRANSansWeb_Medium.woff") format("woff"),
+    url("../fonts/IRAnSans/IRANSansWeb_UltraLight.woff") format("woff");
+}
+body {
+  font-family: "IRAnSans";
+  direction: rtl;
+}
+* {
+  font-family: "IRAnSans";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s1 {
+  background: url("../images/1.jpg");
+  background-size: cover;
+}
+.s1 ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+.s1 ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.s1 h1 {
+  text-align: left;
+  width: 90%;
+  color: #fff;
+  font-size: 50px;
+  margin-top: -250px;
+}
+.s1 h1 a {
+  color: #ff5722;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.s1 .fp-controlArrow.fp-prev {
+  position: absolute;
+  top: 90%;
+  left: 50px;
+  border-width: 20px 20px 20px 0;
+}
+
+.s1 .fp-controlArrow.fp-next {
+  position: absolute;
+  top: 90%;
+  right: 90%;
+  border-width: 20px 0 20px 20px;
+}
+.s2 {
+  background: url("../images/2.jpg");
+  background-size: cover;
+}
+.s2 .sectionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.s2 .sectionTwo h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.s2 .sectionTwo h1 span {
+  color: #c00;
+}
+.s2 .sectionTwo ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.s2 .sectionTwo ul li {
+  width: 49%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.s2 .sectionTwo ul li a {
+  color: black;
+}
+.s2 .sectionTwo ul li svg {
+  font-size: 150px;
+}
+.s2 .sectionTwo ul li a h4 {
+  padding: 25px 0;
+  font-size: 25px;
+}
+
+.s3 {
+  background: url("../images/3.jpg");
+  background-size: cover;
+}
+
+.s4 {
+  background: url("../images/4.jpg");
+  background-size: cover;
+}
+
+.s5 {
+  background: #000;
+}
+#fp-nav ul li a.active span {
+  background: #c00 !important;
+}
