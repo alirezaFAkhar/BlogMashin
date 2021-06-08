@@ -17,6 +17,7 @@ body {
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  outline: none;
 }
 .s1 {
   background: url("../images/1.jpg");
@@ -25,14 +26,17 @@ body {
 .s1 ul {
   position: absolute;
   top: 0;
+  right: 5%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+  height: 8vh;
+  z-index: 1000;
 }
 .s1 ul li {
   list-style: none;
-  margin: 0 30px;
+  margin: 0 20px;
 }
 .s1 ul li a {
   color: #fff;
@@ -112,14 +116,137 @@ body {
   background: url("../images/3.jpg");
   background-size: cover;
 }
+.s3 .sectionThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.s3 .sectionThree h1 {
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+.s3 .sectionThree h1 span {
+  color: #ff5722;
+}
+.s3 .sectionThree ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.s3 .sectionThree ul li {
+  width: 49%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.s3 .sectionThree ul li img {
+  width: 100%;
+  height: 250px;
+}
+.s3 .sectionThree ul li a {
+  color: #000;
+}
 
 .s4 {
   background: url("../images/4.jpg");
   background-size: cover;
 }
+.s4 .sectionFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.s4 .sectionFour h1 {
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+.s4 .sectionFour h1 span {
+  color: #ff5722;
+}
+.s4 .sectionFour form {
+  width: 25%;
+}
+.s4 .sectionFour form input {
+  width: 100%;
+  padding: 10px;
+  font-family: "IRAnSans";
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 4px solid #333;
+  font-size: 19px;
+  color: rgb(190, 190, 190);
+}
+.s4 .sectionFour form textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+  margin-top: 20px;
+  font-family: "IRAnSans";
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 4px solid #333;
+  color: rgb(190, 190, 190);
+  font-size: 19px;
+}
+::placeholder {
+  color: rgb(190, 190, 190);
+}
+.s4 .sectionFour form input[type="submit"] {
+  margin-top: 10px;
+  border: none;
+  background: #c00;
+  color: #fff;
+  font-size: 19px;
+}
 
 .s5 {
   background: #000;
+  text-align: center;
+}
+.s5 .footer {
+  width: 900px;
+  margin: auto;
+}
+.s5 .footer-about {
+  width: 900px;
+  color: #fff;
+}
+.s5 .footer-about h2 {
+  margin-bottom: 20px;
+}
+.s5 .footer .footer-car h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.s5 .footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.s5 .footer ul li {
+  width: 20%;
+  margin: 20px;
+}
+.s5 .footer ul li a img {
+  width: 100%;
+}
+.s5 .footer .copye-right {
+  margin-top: 20px;
+  color: #fff;
 }
 #fp-nav ul li a.active span {
   background: #c00 !important;
